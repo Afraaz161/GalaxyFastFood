@@ -1,0 +1,227 @@
+.inner  {
+	
+	border:0px solid red;
+}
+.inner a {
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	font-size: 25px;
+
+}
+.inner a:hover {
+	color:black;
+}
+
+
+
+
+
+
+
+.user_item {
+	width: 100px;
+	height:100px;
+	overflow:hidden;
+	border-radius: 50%;
+}
+.user_item img {
+	width: 100px;
+	height:100px;
+	overflow:hidden;
+	object-fit: cover;
+	border-radius: 50px;
+}
+
+
+.profile-div {
+align-content: center;
+align-items: center;
+padding: 50px 100px;
+display: inline-block;
+background-color: white;
+margin-bottom: 50px;
+}
+
+.div-profile-image {
+	width:250px;
+	height: 250px;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 0px 0px 30px #343A40;
+	text-align: center;
+
+}
+.profile-div-img img {
+
+
+	box-shadow: 0px 0px 30px #343A40;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 00px;
+}
+
+
+.profile-div-name {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: calibri;
+	text-align: center;
+	font-weight: 600;
+	padding: 20px 0px;
+
+}
+
+.profile-div-email {
+	font-weight: 300;
+	text-align: center;
+  
+       font-family: calibri;
+  	font-size: 20px;
+  	text-transform: lowercase;
+}
+
+
+.profile-div-date {
+	 font-size: 16px;
+	 font-family: calibri;
+	 text-align: center;
+	 font-weight: 600;
+
+}
+
+.profile-div-action {
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	border:1px solid #343A40;
+
+}
+
+
+.profile-div-action:hover{
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	background-color: #343A40;
+	margin-top:20px;
+	padding: 10px;
+	border:1px solid white;
+}
+.profile-div-action i {
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	display: block;
+}
+
+
+.profile-div-action:hover i {
+	font-size: 24px;
+	color:white;
+	text-align: center;
+	display: block;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+.feedback-name {
+	width: 60%;
+	ssss
+	height: 300px;
+	padding:0px;
+	border:0px solid black;
+	font-family: calibri;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+
+
+
+.feedback-paragraph {
+	text-align: justify-all;
+	overflow: hidden;
+	box-sizing: border-box;
+	border:0px solid black;
+	background-color: #6A6A6A;
+	margin-bottom: 25px;
+	background-image: url('../media/burger_1jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: center center; 
+
+
+}
+
+.feedback-paragraph i {
+	padding-top: 10px;
+	padding-left: 10px;
+ }
+.feedback-name input {
+	float:right;
+
+
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.search-weekly {
+	padding-top: 10px;
+	margin-left: 30px;
+	display: inline;
+}
+
+.search-month {
+	padding-top: 10px;
+	margin-left: 30px;
+	display: inline;
+}
+.search-year {
+	padding-top: 10px;
+	margin-left: 20px;
+	display: inline;
+}
+
+
+.search-submit {
+	padding-top: 10px;
+	margin-left: 20px;
+	display: inline;
+	border-radius: 5px;
+	color:black;
+}
+
+
+.search-submit :hover input {
+	color:white;
+
+}
+
+
+.user_item_img {
+	width: 100px;
+	height:100px;
+	overflow:hidden;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+.user_item_img img {
+	width: 100px;
+	height:100px;
+	overflow:hidden;
+	object-fit: cover;
+	border-radius: 50px;
+}

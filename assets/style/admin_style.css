@@ -1,0 +1,106 @@
+.inner a {
+	color:white;
+	font-weight: 600;
+	text-align: center;
+	font-size: 25px;
+
+}
+.inner a:hover{
+	color:black;
+}
+
+
+
+
+.admin-food{
+	width: 100%;
+	color:yellow;
+	border:2px solid red;
+	padding-top: 20px;
+}
+
+
+.admin_pizza_edit
+{
+	color:#565656;
+	border:1px solid #565656;
+	border-radius: 50%;
+	padding:5px;
+	width:30px;
+	height:30px;
+	text-align: center;
+}
+
+
+.admin_pizza_delete
+{
+	color:#565656;
+	border:1px solid #565656;
+	border-radius: 50%;
+	padding:5px;
+	width:30px;
+	height:30px;
+	text-align: center;
+}
+
+
+.pizza-table {
+	padding: 50px;
+	border:2px solid red;
+
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Add_item{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	margin-bottom: 10px;
+	background-color: #aaaa;
+	display: inline-block;
+}
+.Add_item :hover{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	margin-bottom: 10px;
+}
+.Add_item a{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.admin_item_img {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	overflow:hidden;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+.admin_item_img img {
+	width: 150px;
+	height:150px;
+	overflow:hidden;
+	object-fit: cover;
+	border-radius: 50%;
+}
+/*///////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.feedback-star {
+	float:right;
+	border:0px solid red;
+}
+.feedback-star i {
+	float:right;
+	padding-right: 10px;
+	padding-top: 50px;
+}
