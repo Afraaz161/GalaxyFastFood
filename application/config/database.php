@@ -75,8 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
+	'hostname' => 'localhost', // hostname bydefault localhost
+	'username' => 'root', // by default username root 
 	'password' => '', // password empty here of this side
 	'database' => 'galaxy_db', // database name added here for galaxy fast food project buy afraaz anwar
 	'dbdriver' => 'mysqli',
