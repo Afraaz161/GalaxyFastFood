@@ -89,8 +89,8 @@ $db['default'] = array(
 	'dbcollat' => 'utf8_general_ci',
 	'swap_pre' => '',
 	'encrypt' => FALSE, // encryption by default falses
-	'compress' => FALSE,
+	'compress' => FALSE, // compress by default false
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
+	'save_queries' => TRUE // save_queries related data base in to database save updated successfully
 );
