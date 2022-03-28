@@ -41,14 +41,15 @@ include_once 'menu.php';
                   <form method="post" action="<?php echo site_url('user/Profile_c/profile_edit_do'); ?> " style="padding-top: 100px"> <!-- form start!-->
                     <div class="form-group"> <!-- div class form-group start1--!-->
                      <label for="nameInput">Name</label>
-                      <input type="text" name="name"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"placeholder="Enter Name" 
+                      <input type="text" name="name"class="form-control" id="exampleInputEmail1" placeholder="Enter Name" 
                       value="<?php echo $name;?>">
+                      <div class="form-group"> <!-- div class form-group start1--!-->
+                     <label for="phone">Phone</label>
+                      <input type="text" name="phone"class="form-control" id="phone" placeholder="Enter phone" 
+                      value="<?php echo $phone;?>">
                     </div>  <!-- div closed for-group -->
             
-                    <div class="form-group"> <!-- div class form-group start!-->
-                      <label for="exampleInputPhone1">Phone</label>
-                      <input type="number" name="phone"class="form-control" id="exampleInputPhone1" placeholder="Enter phone number" value="<?php echo $phone;?>">
-                   </div> <!-- div form-group closed!-->
+                   
                  
                    <div class="form-group"> <!-- div class form-group start!-->
                      <label for="exampleInputEmail1">E-mail</label>
@@ -60,7 +61,7 @@ include_once 'menu.php';
                       <input type="password" name="password"class="form-control" id="exampleInputPassword1" placeholder="Enter password" value="<?php //echo $password;?>">
                    </div> --> <!-- div form-group closed!--> 
 
-                   <input type="submit" value="save" class="btn btn-info">
+                   <input type="submit" onclick="myFunction()" value="save" class="btn btn-info">
                 
                   </form> <!-- form closed !-->
                 
@@ -75,5 +76,13 @@ include_once 'menu.php';
 
   </section><!-- /.content -->
 </div><!-- /.content-wrapper -->
+<script>
+ 
+   function myFunction(){
+     alert('Profile going for update');
+   }
+   
+   
+</script>
 <?php
 include_once 'footer.php';?>
