@@ -32,6 +32,10 @@ class Profile_c extends CI_Controller
 	{ 
 		$num = $this->session->userdata('validity');
 		$data['show'] = $this->Profile_m->check_id($num); 
+		//  echo "<pre>";
+		//  print_r($data['show']);
+		//  echo "</pre>";
+		//  exit();
 
 		$this->load->view('user/profile_edit_v',$data);
 
@@ -44,6 +48,12 @@ class Profile_c extends CI_Controller
 		$name = $this->input->post('name');
 		$phone = $this->input->post('phone');
 		$email = $this->input->post('email');
+		// echo "<pre>";
+		// print_r($this->input->post('name') .$this->input->post('email') );
+		// echo "<br>";
+		// print_r($num);
+		// echo "</pre>";
+		// exit();
 		//$password = $this->input->post('password');
 		$data = array('name'=>$name,
 	           				'phone'=>$phone,
